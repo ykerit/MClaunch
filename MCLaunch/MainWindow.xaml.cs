@@ -15,7 +15,7 @@ namespace MCLaunch
     {
         private string names;
         Setting settings;
-        //属性
+        //属性keyi 
         public string Names { get => names; set => names = value; }
         public Setting Settings { get => settings; set => settings = value; }
 
