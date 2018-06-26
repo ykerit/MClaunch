@@ -51,21 +51,21 @@
                 <Label  Content="其他选项:" FontSize="14"
                    VerticalAlignment="Center" HorizontalAlignment="Right"
                    Grid.Row="5" Grid.Column="0" Margin="0,14,0,13"></Label>
-                <TextBox x:Name="evriment" Grid.Column="1" Grid.Row="0" Text="默认环境" 
-                      HorizontalAlignment="Left" Height="30" Margin="15,0,0,0"  Width="196" Style="{StaticResource textboxstyle}"/>
+                <TextBox x:Name="evriment" Grid.Column="1" Grid.Row="0" Tag="默认环境" 
+                      HorizontalAlignment="Left" Height="30" Margin="15,0,0,0"  Width="196" Style="{StaticResource WarkTextBoxStyle}"/>
                 <Button Content="+" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Right"  VerticalAlignment="Center" Width="30" Height="30"
                     Style="{StaticResource buttonstyle}"
                     Margin="0,0,58,0" Click="openfile"/>
-                <TextBox Grid.Row="1" Grid.Column="1" Width="225" Height="30" Margin="15,0,0,0" HorizontalAlignment="Left" Style="{StaticResource textboxstyle}"/>
+            <TextBox Grid.Row="1" Grid.Column="1" Width="225" Height="30" Margin="15,0,0,0" HorizontalAlignment="Left" Style="{StaticResource WarkTextBoxStyle}"/>
                 <TextBox x:Name="maxsize" Grid.Row="2" Grid.Column="1" Width="100" Height="30" HorizontalAlignment="Left" 
-                     Margin="15,0,0,0" Style="{StaticResource textboxstyle}"/>
+                     Margin="15,0,0,0" Style="{StaticResource WarkTextBoxStyle}"/>
                 <Label Grid.Row="2" Grid.Column="1" Content="MB" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,40,0"/>
                 <TextBox x:Name="box_x" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Width="50" Height="30" 
-                     Margin="15,0,0,0" Text="854" Style="{StaticResource textboxstyle}"/>
+                     Margin="15,0,0,0" Tag="854" Style="{StaticResource WarkTextBoxStyle}"/>
                 <Label Content="X" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" 
                    Margin="0,0,150,0"/>
                 <TextBox x:Name="box_y" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" Width="50" Height="30" 
-                     Margin="0,0,75,0" Text="480" Style="{StaticResource textboxstyle}"/>
+                     Margin="0,0,75,0" Tag="480" Style="{StaticResource WarkTextBoxStyle}"/>
                 <CheckBox x:Name="allscreen" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="30,0,0,0" Content="全屏"/>
                 <CheckBox x:Name="allos" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0,0,0"
                       Content="包含多平台"/>

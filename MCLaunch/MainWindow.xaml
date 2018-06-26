@@ -44,7 +44,7 @@
                       DisplayMemberPath="Name" SelectedValuePath="_Version" Style="{StaticResource comboboxstyle}"/>
 
             <TextBox Name="name" Grid.Row="1" Grid.Column="1" Height="30" Width="170" LostFocus="endchanged"
-                     Style="{StaticResource textboxstyle}"/>
+                     Style="{StaticResource WarkTextBoxStyle}" Tag="请输入姓名"/>
             <Button Name="play" Content="开始游戏" Grid.Row="2" Grid.Column="1"
                     Width="160" Height="40" Click="play_game"
                     Style="{StaticResource buttonstyle}"/>
