@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MCLaunch"
+        xmlns:local="clr-namespace:MCLaunch.View"
         mc:Ignorable="d"
 		WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="350" Width="450"
@@ -11,15 +11,15 @@
 		BorderThickness="1"  MouseMove="Window_MouseLeftButtonDown" Style="{StaticResource windowstyle}">
     <Grid>
         <Grid Height="140" VerticalAlignment="Top" Margin="0,0,0,0" Background="Aquamarine">
-		<Button Name="Button"  Width="20" Height="20" Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" 
+            <local:usericon Margin="170,50,0,0"/>
+            <Button Name="Button"  Width="20" Height="20" Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" 
 				Margin="0,0,0,0" Click="close_window" Style="{StaticResource buttonstyle}">
-		</Button>
-		<Button Name="Button1"  Width="19" Height="20" Content="—" HorizontalAlignment="Right" VerticalAlignment="Top" 
+            </Button>
+            <Button Name="Button1"  Width="19" Height="20" Content="—" HorizontalAlignment="Right" VerticalAlignment="Top" 
 				Margin="0,0,24,0" Click="subs_Click" Style="{StaticResource buttonstyle}">
-		</Button>
+            </Button>
             <Button Name="Button2"  Width="20" Height="20"  HorizontalAlignment="Right" VerticalAlignment="Top" 
 				Margin="0,0,50,0" Click="link_setting" Content=" ！" Style="{StaticResource buttonstyle}"/>
-
         </Grid>
         <Grid Height="190" VerticalAlignment="Bottom"
             ShowGridLines="False"

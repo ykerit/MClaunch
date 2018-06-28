@@ -1,0 +1,19 @@
+﻿<UserControl x:Name="icons" x:Class="MCLaunch.View.usericon"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MCLaunch.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="90" d:DesignWidth="90">
+    <Grid >
+        <Canvas>
+        <Image x:Name="icon" Source="/image/icon1.gif" Stretch="Fill" Height="90" Width="90">
+            <Image.Clip>
+                <EllipseGeometry RadiusX="45" RadiusY="45" Center="45, 45"/>
+            </Image.Clip>
+        </Image>
+        <Ellipse  HorizontalAlignment="Center" Height="90" Stroke="White" VerticalAlignment="Center" Width="90"/>
+        </Canvas>
+    </Grid>
+</UserControl>
