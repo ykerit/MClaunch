@@ -132,6 +132,7 @@
     <None Include="image\icon7.gif" />
     <None Include="image\icon8.gif" />
     <None Include="image\icon9.gif" />
+    <Resource Include="image\bk.jpeg" />
     <Content Include="Model\options.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

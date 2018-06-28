@@ -18,7 +18,7 @@
                             </Rectangle.Effect>
                         </Rectangle>
                         <Border Background="{TemplateBinding Background}"  
-                            BorderBrush="{TemplateBinding BorderBrush}"  
+                            BorderBrush="#EBEBEB"  
                             BorderThickness="{TemplateBinding BorderThickness}"   
                             Padding="{TemplateBinding Margin}"
                             SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"  
@@ -191,5 +191,9 @@
                 <Setter Property="SelectionBrush" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}"/>
             </MultiTrigger>
         </Style.Triggers>
+    </Style>
+    <Style x:Key="lablestyle" TargetType="Label">
+        <Setter Property="Foreground" Value="#D3D3D3"/>
+
     </Style>
 </ResourceDictionary>
