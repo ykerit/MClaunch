@@ -32,11 +32,11 @@
     </Style>
     <!--button样式-->
     <LinearGradientBrush x:Key="LinearGradientBlueBackground" EndPoint="0.5,1" StartPoint="0.5,0">
-        <GradientStop Color="#FF377FED" Offset="0" />
-        <GradientStop Color="#FF074CC0" Offset="1" />
+        <GradientStop Color="#24D197" Offset="0" />
+        <GradientStop Color="#73c09c" Offset="1" />
     </LinearGradientBrush>
-    <SolidColorBrush x:Key="MyBtnBorderColor" Color="#FF2D78F4"></SolidColorBrush>
-    <SolidColorBrush x:Key="MyBtnHoverBackgroundColor" Color="#FF317EF3"></SolidColorBrush>
+    <SolidColorBrush x:Key="MyBtnBorderColor" Color="#73c09c"></SolidColorBrush>
+    <SolidColorBrush x:Key="MyBtnHoverBackgroundColor" Color="#79E8D0"></SolidColorBrush>
  
     <Style x:Key="buttonstyle" TargetType="{x:Type Button}" >
         <Setter Property="Background" Value="{StaticResource LinearGradientBlueBackground}"></Setter>
